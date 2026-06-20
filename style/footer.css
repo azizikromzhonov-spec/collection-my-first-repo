@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    gap: 300px;
+    padding-left: 100px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.footer-list__link {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "RB";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    text-transform: lowercase;
+    color: #1a1818;
+    padding-bottom: 30px;
+
+}
+
+.footer-box__title {
+    padding-bottom: 30px;
+    font-family: "RB";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-transform: lowercase;
+    color: #1a1818;
+
+}
+
+@media (max-width:1800px) {
+    .footer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+

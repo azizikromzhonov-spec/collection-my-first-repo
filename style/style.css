@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.body {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: url("../images/headerbg.png");
+    margin-bottom: 100px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.nav-left {
+    display: flex;
+    gap: 30px;
+
+}
+.nav-left__list {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-right__list {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-list__link {
+    font-family: "RR";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    text-transform: lowercase;
+    color: #1a1818;
+}
+
+.nav-list__link:hover {
+    color: #828282;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   /* 🔥 shu yetishmayapti */
+    height: 100%;
+    gap: 30px;
+    padding-left: 20px;
+}
+
+.header-content__title {
+    font-family:"RB";
+    font-weight: 700;
+    font-size: 57px;
+    line-height: 105%;
+    letter-spacing: 0.02em;
+    color: #1a1818;
+    width: 480px;
+}
+
+.header-content__link {
+    font-family: "RB";
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 134%;
+    text-transform: lowercase;
+    color: #1a1818;
+}
+
+@media (max-width: 880px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+}
+
+@media (max-width: 460px) {
+    .nav-left {
+        flex-direction: column;
+    }
+
+    .nav-left__logo {
+        height: 30px;
+        width: 200px;
+        padding-left: 80px;
+    }
+}

@@ -1,0 +1,247 @@
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.info-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 400px;
+
+}
+
+.info-left__title {
+    font-family: "RB";
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+    color: #1a1818;
+    max-width: 392px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.info-left__link {
+    font-family: "RB";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 144%;
+    text-transform: lowercase;
+    color: #1a1818;
+}
+
+.catalog {
+    padding: 60px;
+    margin-top: 50px;
+}
+
+.catalog-wrapper{
+    display: flex;
+    padding-bottom: 100px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.catalog-wrapper__box {
+    display: flex;
+    flex-direction: column;
+}
+
+.catalog-info__link {
+    font-family: "RB";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 134%;
+    text-transform: lowercase;
+    color: #1a1818;
+}
+
+.catalog-info__text {
+    font-family: "RB";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 144%;
+    text-transform: lowercase;
+    color: #1a1818;
+}
+
+.catalog-box__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog-wrapper__box {
+    display: flex;
+    justify-content: center;
+}
+
+.catalog-wrapper__content {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.catalog-content__title {
+    font-family: "RR";
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+    color: #1a1818;
+    max-width: 360px;
+}
+
+.catalog-content__link {
+    font-family: "RB";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 134%;
+    text-transform: lowercase;
+    color: #1a1818;
+}
+
+.catalog-tables__text {
+    display: flex;
+    justify-content: right;
+    font-family: "RB";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 134%;
+    text-transform: lowercase;
+    color: #1a1818;
+}
+
+.catalog-wrapper__image,
+.catalog-box__image,
+.catalog-tables__image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.catalog-wrapper-box,
+.catalog-wrapper__content,
+.catalog-wrapper__tables {
+    flex-shrink: 0;
+}
+
+.catalog-wrapper {
+    dis
+}
+
+.roster {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.roster-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 40px;
+}
+
+.roster-list__link {
+    font-family: "RR";
+    font-weight: 400;
+    font-size: 59px;
+    line-height: 102%;
+    letter-spacing: 0.02em;
+    text-transform: lowercase;
+    color: #1a1818;
+    align-items: center;
+}
+
+.roster-info {
+    margin-top: 100px;
+}
+
+.roster-text {
+    font-family: "RR";
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 104%;
+    letter-spacing: 0.02em;
+    color: #1a1818;
+}
+
+.roster-title {
+    font-family: "RR";
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 102%;
+    letter-spacing: 0.02em;
+    text-transform: lowercase;
+    text-align: right;
+    color: #000;
+}
+
+@media (max-width: 1325px) {
+    .catalog-wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .catalog-content__title {
+        font-size: 30px}
+}
+
+@media (max-width: 1325px) {
+    .info{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .info-left {
+        gap: 30px;
+    }
+
+    .info-right__image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .roster-list__link {
+        font-size: 40px;
+        align-items: center;
+    }
+
+    .roster-text {
+        font-size: 35px;
+        align-items: center;
+    }
+    .roster-title {
+        font-size: 30px;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 1050px) {
+    .roster {
+        align-items: center;
+    }
+    .roster-list__link {
+      font-size: 30px;
+    }
+
+    .roster-text {
+        font-size: 24px;
+    }
+
+    .roster-title {
+        font-size: 20px;
+    }
+
+    .roster-list {
+        align-items: center;
+    }
+}
